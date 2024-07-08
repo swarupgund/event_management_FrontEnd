@@ -1,0 +1,24 @@
+/* Fixed navbar */
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: white; /* Change the background color as needed */
+    z-index: 1000; /* Ensure it's above other content */
+    width: 100%;
+    /* height: 65px; */
+    /* padding: 5px 5px;  */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add a shadow for visual distinction */
+  }
+  
+  #home, #gallery, #statistic {
+    background-color: #E3F4F4; /* Set the background color as needed */
+    padding: 20px; /* Add padding for spacing */
+  }
+  
+  #event, #ourwork, #testimonials {
+    background-color: #C4DFDF;
+    padding: 20px;
+  }
+  

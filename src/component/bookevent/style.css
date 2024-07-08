@@ -1,0 +1,14 @@
+.bg-primary-600 {
+    background-color: #8b5cf6;
+}
+
+body {
+    /* background-image: url('your-background-image.jpg'); */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+#book{
+    background-color: #E3F4F4; /* Set the background color as needed */
+    padding: 20px; /* Add padding for spacing */
+}
