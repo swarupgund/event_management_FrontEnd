@@ -34,12 +34,10 @@ const Home = () => {
             <img
               className="object-cover object-center rounded"
               alt="hero"
-<<<<<<< HEAD
               // src="./assets/home/homepagemainimg.png"
               src={`${process.env.PUBLIC_URL}/assets/home/homepagemainimg.png `}
-=======
-              src="/assets/home/homepagemainimg.png"
->>>>>>> ceff2d6248d1e4198f27f0d1e1cb8ae127105f9e
+              // src="/assets/home/homepagemainimg.png"
+
             />
           </div>
         </div>
