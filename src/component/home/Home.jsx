@@ -34,7 +34,8 @@ const Home = () => {
             <img
               className="object-cover object-center rounded"
               alt="hero"
-              src="./assets/home/homepagemainimg.png"
+              // src="./assets/home/homepagemainimg.png"
+              src={`${process.env.PUBLIC_URL}/assets/home/homepagemainimg.png `}
             />
           </div>
         </div>
@@ -75,21 +76,21 @@ const Home = () => {
                 <img
                   alt="gallery"
                   className="w-full object-cover h-full object-center block"
-                  src="/assets/gallery/gallery 3.jpg"
+                  src={`${process.env.PUBLIC_URL}/assets/gallery/gallery 3.jpg`}
                 />
               </div>
               <div className="md:p-2 p-1 w-1/2">
                 <img
                   alt="gallery"
                   className="w-full object-cover h-full object-center block"
-                  src="/assets/gallery/gallery 6.jpg"
+                  src={`${process.env.PUBLIC_URL}/assets/gallery/gallery 6.jpg`}
                 />
               </div>
               <div className="md:p-2 p-1 w-full">
                 <img
                   alt="gallery"
                   className="w-full h-full object-cover object-center block"
-                  src="../assets/gallery/gallery 7jpg.jpg"
+                  src={`${process.env.PUBLIC_URL}/assets/gallery/gallery 7jpg.jpg`}
                 />
               </div>
             </div>
@@ -98,21 +99,21 @@ const Home = () => {
                 <img
                   alt="gallery"
                   className="w-full h-full object-cover object-center block"
-                  src="../assets/gallery/gallery 8.jpg"
+                  src={`${process.env.PUBLIC_URL}/assets/gallery/gallery 8.jpg`}
                 />
               </div>
               <div className="md:p-2 p-1 w-1/2">
                 <img
                   alt="gallery"
                   className="w-full object-cover h-full object-center block"
-                  src="/assets/gallery/gallery 5.jpg"
+                  src={`${process.env.PUBLIC_URL}/assets/gallery/gallery 5.jpg`}
                 />
               </div>
               <div className="md:p-2 p-1 w-1/2">
                 <img
                   alt="gallery"
                   className="w-full object-cover h-full object-center block"
-                  src="/assets/gallery/gallery 4.jpg"
+                  src={`${process.env.PUBLIC_URL}/assets/gallery/gallery 4.jpg`}
                 />
               </div>
             </div>
@@ -136,7 +137,8 @@ const Home = () => {
                 <img
                   alt="ecommerce"
                   className="object-cover object-center w-full h-full block"
-                  src="/assets/our work/2.jpg"
+                  // src="/assets/our work/2.jpg"
+                  src={`${process.env.PUBLIC_URL}/assets/our work/2.jpg`}
                 />
               </a>
               <div className="mt-4">
@@ -153,7 +155,7 @@ const Home = () => {
                 <img
                   alt="ecommerce"
                   className="object-cover object-center w-full h-full block"
-                  src="/assets/our work/1.jpg"
+                  src={`${process.env.PUBLIC_URL}/assets/our work/1.jpg`}
                 />
               </a>
               <div className="mt-4">
@@ -170,7 +172,7 @@ const Home = () => {
                 <img
                   alt="ecommerce"
                   className="object-cover object-center w-full h-full block"
-                  src="/assets/our work/3.jpg"
+                  src={`${process.env.PUBLIC_URL}/assets/our work/3.jpg`}
                 />
               </a>
               <div className="mt-4">
@@ -187,7 +189,7 @@ const Home = () => {
                 <img
                   alt="ecommerce"
                   className="object-cover object-center w-full h-full block"
-                  src="/assets/our work/4.jpg"
+                  src={`${process.env.PUBLIC_URL}/assets/our work/4.jpg`}
                 />
               </a>
               <div className="mt-4">
@@ -204,7 +206,7 @@ const Home = () => {
                 <img
                   alt="ecommerce"
                   className="object-cover object-center w-full h-full block"
-                  src="/assets/our work/5.jpg"
+                  src={`${process.env.PUBLIC_URL}/assets/our work/5.jpg`}
                 />
               </a>
               <div className="mt-4">
@@ -221,7 +223,7 @@ const Home = () => {
                 <img
                   alt="ecommerce"
                   className="object-cover object-center w-full h-full block"
-                  src="/assets/our work/6.jpg"
+                  src={`${process.env.PUBLIC_URL}/assets/our work/6.jpg`}
                 />
               </a>
               <div className="mt-4">
@@ -238,7 +240,7 @@ const Home = () => {
                 <img
                   alt="ecommerce"
                   className="object-cover object-center w-full h-full block"
-                  src="/assets/our work/7.jpg"
+                  src={`${process.env.PUBLIC_URL}/assets/our work/7.jpg`}
                 />
               </a>
               <div className="mt-4">
@@ -255,7 +257,7 @@ const Home = () => {
                 <img
                   alt="ecommerce"
                   className="object-cover object-center w-full h-full block"
-                  src="/assets/our work/8.jpg"
+                  src={`${process.env.PUBLIC_URL}/assets/our work/8.jpg`}
                 />
               </a>
               <div className="mt-4">
@@ -415,7 +417,7 @@ const Home = () => {
                 <div className="inline-flex items-center">
                   <img
                     alt="testimonial"
-                    src="/assets/FeedBack/mukesh-ambani.jpg"
+                    src={`${process.env.PUBLIC_URL}/assets/FeedBack/mukesh-ambani.jpg`}
                     className="w-12 h-12 rounded-full flex-shrink-0 object-cover object-center"
                   />
                   <div className="flex-grow flex flex-col pl-4">
@@ -452,7 +454,7 @@ const Home = () => {
                 <div className="inline-flex items-center">
                   <img
                     alt="testimonial"
-                    src="/assets/FeedBack/Savitri-jindal.jpg"
+                    src={`${process.env.PUBLIC_URL}/assets/FeedBack/Savitri-jindal.jpg`}
                     className="w-12 h-12 rounded-full flex-shrink-0 object-cover object-center"
                   />
                   <div className="flex-grow flex flex-col pl-4">

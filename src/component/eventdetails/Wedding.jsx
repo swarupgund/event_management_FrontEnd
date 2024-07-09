@@ -20,7 +20,7 @@ const Wedding = () => {
             <img
               alt="ecommerce"
               className="lg:w-1/2 w-full lg:h-auto h-64 object-cover object-center rounded"
-              src="./assets/events/wedding gallery 2.jpg"
+              src={`${process.env.PUBLIC_URL}/assets/events/wedding gallery 2.jpg`}
             />
             <div className="lg:w-1/2 w-full lg:pl-10 lg:py-6 mt-6 lg:mt-0">
               <h2 className="text-sm title-font text-gray-500 tracking-widest">
